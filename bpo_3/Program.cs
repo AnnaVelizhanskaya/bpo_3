@@ -110,21 +110,44 @@ public class Rook : HeavyPiece
 }
 class Program
 {
+    // Метод проверки ввода цвета
+    static string InputColor(string figureName)
+    {
+        string color;
+
+        do
+        {
+            Console.WriteLine($"Введите цвет фигуры {figureName}:");
+            color = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(color))
+            {
+                Console.WriteLine("Ошибка! Поле цвета не должно быть пустым.");
+            }
+
+        } while (string.IsNullOrWhiteSpace(color));
+
+        return color;
+    }
+    
     static void Main(string[] args)
     {
-        ChessPiece[] chessPieces = new ChessPiece[4];
-        Console.WriteLine("Введите цвет пешки (белая или черная):");
-        string pawnColor = Console.ReadLine();
+         ChessPiece[] chessPieces = new ChessPiece[4];
+
+        // Ввод цветов фигур с проверкой
+        string pawnColor = InputColor("Пешка");
         chessPieces[0] = new Pawn(pawnColor);
-        Console.WriteLine("Введите цвет короля (белый или черный):");
-        string kingColor = Console.ReadLine();
+
+        string kingColor = InputColor("Король");
         chessPieces[1] = new King(kingColor);
-        Console.WriteLine("Введите цвет слона (белый или черный):");
-        string bishopColor = Console.ReadLine();
+
+        string bishopColor = InputColor("Слон");
         chessPieces[2] = new Bishop(bishopColor);
-        Console.WriteLine("Введите цвет ладьи (белая или черная):");
-        string rookColor = Console.ReadLine();
+
+        string rookColor = InputColor("Ладья");
         chessPieces[3] = new Rook(rookColor);
+
+        // Вывод информации о фигурах
         foreach (ChessPiece piece in chessPieces)
         {
             Console.WriteLine($"Фигура: {piece.Name}");
