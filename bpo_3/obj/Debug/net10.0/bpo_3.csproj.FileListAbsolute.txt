@@ -1,0 +1,14 @@
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\bin\Debug\net10.0\bpo_3.exe
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\bin\Debug\net10.0\bpo_3.deps.json
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\bin\Debug\net10.0\bpo_3.runtimeconfig.json
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\bin\Debug\net10.0\bpo_3.dll
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\bin\Debug\net10.0\bpo_3.pdb
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\bpo_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\bpo_3.AssemblyInfoInputs.cache
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\bpo_3.AssemblyInfo.cs
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\bpo_3.csproj.CoreCompileInputs.cache
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\bpo_3.dll
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\refint\bpo_3.dll
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\bpo_3.pdb
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\bpo_3.genruntimeconfig.cache
+C:\Users\Nyrka\source\repos\bpo_3\bpo_3\obj\Debug\net10.0\ref\bpo_3.dll
