@@ -121,11 +121,20 @@ class Program
             color = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(color))
-            {
-                Console.WriteLine("Ошибка! Поле цвета не должно быть пустым.");
-            }
+          {
+             Console.WriteLine("Ошибка! Поле цвета не должно быть пустым.");
+          }
+           else if (
+            color != "белая" &&
+            color != "черная" &&
+            color != "белый" &&
+            color != "черный")
+         {
+            Console.WriteLine("Ошибка! Допустимые цвета: белый/черный.");
+            color = "";
+         }
 
-        } while (string.IsNullOrWhiteSpace(color));
+           } while (string.IsNullOrWhiteSpace(color));
 
         return color;
     }
